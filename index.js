@@ -90,12 +90,12 @@ function init() {
   // Load textures
   const textureLoader = new THREE.TextureLoader()
   const textures = [
-    textureLoader.load('./assets/texture-5.jpg'),
-    textureLoader.load('./assets/texture-4.jpg'),
-    textureLoader.load('./assets/texture-5.jpg'),
-    textureLoader.load('./assets/texture-2.jpg'),
-    textureLoader.load('./assets/texture-6.jpg'),
-    textureLoader.load('./assets/texture-6.png'),
+    textureLoader.load('/assets/texture-5.jpg'),
+    textureLoader.load('/assets/texture-4.jpg'),
+    textureLoader.load('/assets/texture-5.jpg'),
+    textureLoader.load('/assets/texture-2.jpg'),
+    textureLoader.load('/assets/texture-6.jpg'),
+    textureLoader.load('/assets/texture-6.png'),
   ]
 
   // Creating a simple geometry (cube as an example)
